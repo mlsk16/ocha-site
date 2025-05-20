@@ -129,7 +129,7 @@ _window.trigger('scroll');
 function switchImage() {
   // 画像を切り替える処理
   const img = document.getElementById("myImage");
-  if (img.src.match(/design\/log\/logo3\.png/)) {
+ if (img.src.endsWith('design/log/logo3.png')) {
       img.src = "design/logo/logo3.png";
   } else {
         img.src = "design/logo/logo3.png";
